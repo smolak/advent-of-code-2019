@@ -1,6 +1,6 @@
-(ns v2019.core)
+(ns v2019.core
+  (:require [v2019.day01 :refer :all :as day01]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn -main
+  []
+  (day01/main))
